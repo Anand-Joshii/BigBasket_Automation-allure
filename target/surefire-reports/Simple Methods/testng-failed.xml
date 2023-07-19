@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Simple Methods]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="TestComponents.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="simple"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestScripts.TestScenarios">
+        <methods>
+          <include name="getSearchResults"/>
+          <include name="verifyProductPageFunc"/>
+          <include name="tearDown"/>
+          <include name="validateProductPresence"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- TestScripts.TestScenarios -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Simple Methods] -->

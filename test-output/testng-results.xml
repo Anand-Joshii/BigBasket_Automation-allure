@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="10" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-19T12:34:23 IST" name="Simple Methods" finished-at="2023-07-19T12:36:08 IST" duration-ms="104746">
+    <groups>
+      <group name="simple">
+        <method signature="TestScenarios.getSearchResults()[pri:0, instance:TestScripts.TestScenarios@45e1aa48]" name="getSearchResults" class="TestScripts.TestScenarios"/>
+        <method signature="TestScenarios.validateProductPresence(java.lang.String)[pri:0, instance:TestScripts.TestScenarios@45e1aa48]" name="validateProductPresence" class="TestScripts.TestScenarios"/>
+        <method signature="TestScenarios.verifyProductPageFunc()[pri:0, instance:TestScripts.TestScenarios@45e1aa48]" name="verifyProductPageFunc" class="TestScripts.TestScenarios"/>
+      </group> <!-- simple -->
+    </groups>
+    <test started-at="2023-07-19T12:34:23 IST" name="Test" finished-at="2023-07-19T12:36:08 IST" duration-ms="104746">
+      <class name="TestScripts.TestScenarios">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:TestScripts.TestScenarios@45e1aa48]" started-at="2023-07-19T12:34:23 IST" name="launchApp" finished-at="2023-07-19T12:35:00 IST" duration-ms="37136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="getSearchResults()[pri:0, instance:TestScripts.TestScenarios@45e1aa48]" started-at="2023-07-19T12:35:01 IST" name="getSearchResults" finished-at="2023-07-19T12:35:06 IST" duration-ms="5607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSearchResults -->
+        <test-method signature="validateProductPresence(java.lang.String)[pri:0, instance:TestScripts.TestScenarios@45e1aa48]" started-at="2023-07-19T12:35:15 IST" name="validateProductPresence" data-provider="DataExample" finished-at="2023-07-19T12:35:19 IST" duration-ms="3159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductPresence -->
+        <test-method signature="validateProductPresence(java.lang.String)[pri:0, instance:TestScripts.TestScenarios@45e1aa48]" started-at="2023-07-19T12:35:19 IST" name="validateProductPresence" data-provider="DataExample" finished-at="2023-07-19T12:35:22 IST" duration-ms="3235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Orange]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductPresence -->
+        <test-method signature="validateProductPresence(java.lang.String)[pri:0, instance:TestScripts.TestScenarios@45e1aa48]" started-at="2023-07-19T12:35:22 IST" name="validateProductPresence" data-provider="DataExample" finished-at="2023-07-19T12:35:26 IST" duration-ms="3567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Onion]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductPresence -->
+        <test-method signature="verifyProductPageFunc()[pri:0, instance:TestScripts.TestScenarios@45e1aa48]" started-at="2023-07-19T12:35:26 IST" name="verifyProductPageFunc" finished-at="2023-07-19T12:36:07 IST" duration-ms="41261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPageFunc -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestScripts.TestScenarios@45e1aa48]" started-at="2023-07-19T12:36:07 IST" name="tearDown" finished-at="2023-07-19T12:36:08 IST" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestScripts.TestScenarios -->
+    </test> <!-- Test -->
+  </suite> <!-- Simple Methods -->
+</testng-results>
